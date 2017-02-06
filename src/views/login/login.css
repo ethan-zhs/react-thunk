@@ -1,0 +1,81 @@
+.mt30 { margin-top: 30px }
+.ml6 { margin-left: 6px }
+
+.login-container {
+	width: 100%;
+	min-width: 960px;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: url("../../statics/images/login-bg.jpg") no-repeat;  
+	background-size: 100%;
+	background-position: center;
+}
+
+.login-content {
+	margin-top: 8%;
+	position: absolute;
+	width: 100%;
+}
+
+.login-content h1 {
+	text-align: center;
+}
+
+.login-form-box {
+	width: 510px;
+	background: #f9f9f9;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 40px 50px;
+	margin-top: 35px;
+}
+
+.login-form-box label {
+	font-size: 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.login-select-validate{
+	font-size: 12px;
+	margin-left: 15px;
+	color: #ff3232;
+}
+
+.login-select {
+	width: 200px !important;
+}
+
+.ant-input-wrapper .login-pass-input{
+	width: 410px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 2px;
+}
+
+.login-btn {
+	padding: 8px 56px !important;
+	font-size: 18px !important;
+	display: block !important;
+	margin: 0 auto;
+	margin-top: 30px !important;
+}
+
+.login-select .ant-select-selection--single{
+	height: 40px;
+}
+
+.login-select .ant-select-selection-selected-value{
+	line-height: 40px;
+}
+
+.login-form-box .has-error.has-feedback:after{
+	line-height: 40px;
+}
+
+
